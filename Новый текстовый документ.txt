@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo_img">
+                <img src="/img/logo_green.png" alt="logo_img">
+                <h2>flowers.uz</h2>
+            </div>
+
+            <div class="menubar">
+                <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">kim uchun ?</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">servis</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">my team</a></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-telegram"></i>
+                <i class="fab fa-tiktok"></i>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,600&family=Patrick+Hand&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+header{
+  height: 100hv;
+  width: 100vw;
+}
+nav{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #053935e5;
+}
+.logo_img{
+  display: flex;
+  align-items: center;
+}
+.logo_img img{
+  margin-right: 10px;
+  width: 50px;
+  border-radius: 50%;
+}
+.logo_img h2{
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #D2B46C;
+  letter-spacing: 2px;
+  font-family: 'Patrick Hand', 'cursive';
+}
+.menubar ul{
+  list-style: none;
+}
+.menubar ul li{
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.menubar ul li a{
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #D2B46C;
+  padding: 5px 15px;
+  background-color: #05413cda;
+  border-radius: 30px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.menubar ul li a:hover{
+  background-color: #e7c168;
+  color: #053935e5;
+  padding: 6px 20px;
+}
+.icons i{
+  margin-left: 15px;
+  font-size: 20px;
+  color: #D2B46C;
+  padding: 5px;
+  border-radius: 35%;
+  background-color: #053935e5;
+  transition: 0.5s;
+}
+.icons i:hover{
+  background-color: #D2B46C;
+  color: #053935e5;
+  font-size: 22px;
+}
