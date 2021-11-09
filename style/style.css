@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,600&family=Patrick+Hand&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+header{
+  height: 100hv;
+  width: 100vw;
+}
+nav{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #053935e5;
+}
+.logo_img{
+  display: flex;
+  align-items: center;
+}
+.logo_img img{
+  margin-right: 10px;
+  width: 50px;
+  border-radius: 50%;
+}
+.logo_img h2{
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #D2B46C;
+  letter-spacing: 2px;
+  font-family: 'Patrick Hand', 'cursive';
+}
+.menubar ul{
+  list-style: none;
+}
+.menubar ul li{
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.menubar ul li a{
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #D2B46C;
+  padding: 5px 15px;
+  background-color: #05413cda;
+  border-radius: 30px;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.menubar ul li a:hover{
+  background-color: #e7c168;
+  color: #053935e5;
+  padding: 6px 20px;
+}
+.icons i{
+  margin-left: 15px;
+  font-size: 20px;
+  color: #D2B46C;
+  padding: 5px;
+  border-radius: 35%;
+  background-color: #053935e5;
+  transition: 0.5s;
+}
+.icons i:hover{
+  background-color: #D2B46C;
+  color: #053935e5;
+  font-size: 22px;
+}
